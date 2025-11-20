@@ -1,0 +1,42 @@
+# Backup files
+*.backup
+*.bak
+*.old
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# VM disk images (don't commit large binaries)
+*.qcow2
+*.img
+*.iso
+*.vdi
+*.vmdk
+
+# VM NVRAM files
+*_VARS.fd
+
+# Log files
+*.log
+
+# Personal configurations
+my-*.xml
+personal/
+local/
+
+# Test files
+test/
+tests/tmp/
